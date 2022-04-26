@@ -1,0 +1,27 @@
+{
+  "name": "simple-video-conference-application",
+  "version": "1.0.0",
+  "description": "Building a simple video conference application in Nodejs using Socket io and WebRTC. basic CSS and HTML are refered for frontend",
+  "main": "src\\ksapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src\\app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "vtn13042000"
+  },
+  "keywords": [
+    "video_call",
+    "webrtc",
+    "socketio"
+  ],
+  "author": "vtn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.0",
+    "nodemon": "^2.0.15",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^4.5.0"
+  }
+}
